@@ -1,5 +1,11 @@
+'''
+Created on 05-Feb-2019
+
+@author: impadmin
+'''
 print("Hello, World!")
 print("---------------------------")
+
 if 5 > 2:
   	print("Five is greater than two!")
 #This condition will not be pass
@@ -10,20 +16,23 @@ print("---------------------------")
 multiline docstring."""
 print("multiline docstring:")
 print("---------------------------")
+
 #Python variables
 x = 5
 y = "John"
 print(x)
 print(y)
+
 #Variables do not need to be declared with any particular type and can even change type after they have been set.
 x = 4 # x is of type int
 x = "Sally" # x is now of type str
-print(x)
-print("---------------------------")
+print("x: "+ x) #print Sally
+print("---------------------------") 
+
 #If you try to combine a string and a number, Python will give you an error:
 x = 5
 y = "John"
-#print(x + y)
+#print(x + y)  #Run time error
 
 """Python Numbers
 There are three numeric types in Python:
@@ -58,6 +67,7 @@ print(type(x))
 print(type(y))
 print(type(z))
 print("---------------------------")
+
 #Python Casting
 """Casting in python is therefore done using constructor functions:
 
